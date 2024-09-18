@@ -59,35 +59,6 @@ This repository contains two primary projects developed for **British Airways**:
 
 ---
 
-## Customer Sentiment Analysis
-
-### Data Collection
-- **Source**: Customer reviews for British Airways were scraped from popular review platforms.
-- **Techniques Used**: 
-  - Web scraping was performed using Python's BeautifulSoup and Scrapy libraries.
-  - Reviews were then cleaned and preprocessed for sentiment analysis.
-
-### Sentiment Analysis
-- **Libraries Used**:
-  - NLTK (Natural Language Toolkit) for text preprocessing.
-  - Vader Sentiment Analysis to classify reviews as positive, neutral, or negative.
-- **Preprocessing**:
-  - Tokenization and lemmatization were applied.
-  - Stop words were removed, and reviews were normalized.
-  
-### Insights
-- **Overall Sentiment**:
-  - **Positive**: 68%
-  - **Negative**: 20%
-  - **Neutral**: 12%
-- **Common Positive Aspects**:
-  - Excellent customer service
-  - Comfortable seating
-- **Common Negative Aspects**:
-  - Delays in flight schedules
-  - Poor in-flight meals
-
----
 
 ## Installation
 
@@ -123,16 +94,6 @@ To train and test the model:
 ```bash
 python train_ticket_prediction.py
 ```
-
-The script will train the Random Forest model and display the evaluation metrics (accuracy, precision, recall, F1 score).
-
-### Customer Sentiment Analysis
-To run the sentiment analysis:
-```bash
-python sentiment_analysis.py
-```
-
-The script will scrape reviews (or use pre-downloaded ones) and perform sentiment classification. It will output overall sentiment statistics and top aspects influencing positive and negative sentiments.
 
 ---
 
