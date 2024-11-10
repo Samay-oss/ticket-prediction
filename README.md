@@ -1,25 +1,15 @@
 # ticket-prediction
-Here’s an example GitHub documentation for the **Ticket Purchasing Prediction Model** and **Customer Sentiment Analysis** projects done for British Airways. You can adapt it further depending on your implementation details.
+Here’s an example GitHub documentation for the **Ticket Purchasing Prediction Model** project done for British Airways. You can adapt it further depending on your implementation details.
 
 ---
 
-# Ticket Purchasing Prediction Model & Customer Sentiment Analysis for British Airways
-
+# Ticket Purchasing Prediction Model
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Ticket Purchasing Prediction Model](#ticket-purchasing-prediction-model)
    - [Dataset](#dataset)
    - [Modeling](#modeling)
    - [Results](#results)
-3. [Customer Sentiment Analysis](#customer-sentiment-analysis)
-   - [Data Collection](#data-collection)
-   - [Sentiment Analysis](#sentiment-analysis)
-   - [Insights](#insights)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
-
 ---
 
 ## Project Overview
@@ -27,8 +17,6 @@ Here’s an example GitHub documentation for the **Ticket Purchasing Prediction 
 This repository contains two primary projects developed for **British Airways**:
 
 1. **Ticket Purchasing Prediction Model**: A machine learning model designed to predict whether a customer would purchase a ticket based on historical data and customer behavior patterns.
-2. **Customer Sentiment Analysis**: Web-scraped customer reviews analyzed to determine the overall sentiment (positive, negative, or neutral) towards British Airways, providing actionable insights into customer satisfaction.
-
 ---
 
 ## Ticket Purchasing Prediction Model
@@ -82,9 +70,6 @@ customer_id, session_duration, pages_visited, price_viewed, ticket_purchased
 1, 120, 5, 300, 1
 2, 90, 3, 250, 0
 ```
-
-For the **Sentiment Analysis**, scrape customer reviews using the provided web scraping script under `/scraper/`.
-
 ---
 
 ## Usage
